@@ -1,0 +1,126 @@
+* {
+    font-family: 'Fira Sans', sans-serif ;
+    
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:#007BFF;
+    text-decoration: none;
+}
+
+.bg-yemek{
+    background-color: #AB0012!important;
+}
+.nav-color {
+    color: #FFFFFF;
+}
+
+.center-div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+
+.btn-navbar {
+    background-color:#FFC604!important;
+    color: #FFFFFF;
+}
+.banner-photo {
+    height:320px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner7.jpg");
+    position: relative;
+}
+
+.banner-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+}
+
+.list-group-item {
+    max-width:210px !important;
+}
+.mainBody{
+    max-width:100%;
+}
+
+.categoryHeader {
+    border-radius: 3px;
+    -webkit-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    -moz-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+}
+.mainBody {
+    height: 100vh;
+}
+
+.boxPhoto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url("../img/LimanPizza2.jpg");
+    min-width: 410px;
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 3px;
+    -webkit-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    -moz-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    
+}
+.background-white {
+    background-color: white;
+}
+.sticker {
+    position: absolute;
+    top:2%;
+    left:2%;
+}
+.restaurants {
+    border-radius: 3px;
+    -webkit-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    -moz-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+}
+.category {
+    margin-left:20px;
+}
+.order {
+    color:#007bff;
+}
+
+/*Order*/
+
+.orderBanner-photo {
+    height:150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/orderBanner2.jpg");
+}
+
+.restLogo img {
+    width: 100px;
+    height: 100px;
+}
+
+.restBanner {
+    border-radius: 3px;
+    -webkit-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    -moz-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+}
+
+.menuInfo {
+    border-radius: 3px;
+    -webkit-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    -moz-box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    box-shadow: -1px 3px 7px 3px rgba(224,224,224,1);
+    min-height: 70px;
+}
+.basketImg {
+    max-width: 100px;
+    max-height: 100px;
+}
